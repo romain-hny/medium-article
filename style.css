@@ -1,0 +1,81 @@
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+}
+
+body {
+  background-color: azure;
+  margin: 0;
+}
+
+h1 {
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+}
+
+#banner-desc {
+  text-align: left;
+  font-family: 'Lora', sans-serif;
+  font-size: 25px;
+  font-weight: lighter;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color:brown;
+  font-weight: lighter;
+}
+
+.text-description {
+  font-family: 'Lora', sans-serif;
+  color: #8F9292;
+  font-weight: lighter;
+}
+
+.btn-red {
+  background-color: hsl(87, 66%, 65%);
+  border-radius: 6px;
+  color: white;
+  font-family: 'Lora', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.btn-red:hover {
+  background-color: hsl(130, 67%, 55%);
+  transition: all ease 0.3s;
+}
+input {
+  font-family: 'Lora', sans-serif;
+  color: #8F9292;
+  font-weight: lighter;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 80%;
+  }
+}
